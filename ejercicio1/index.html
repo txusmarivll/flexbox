@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio1 - Menú Horizontal</title>
+    <style>
+        /* *{border: 1px solid black} */
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .enlaces {
+            display: flex;
+            color: grey;
+            flex-direction: row;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .enlaces li {
+            padding: 1em;
+        }
+
+        .idiomas {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .idiomas li {
+            color: white;
+            background-color: #909090;
+            padding: 1em;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div>
+        <img src="pics/logo.png">
+    </div>
+    <ul class="enlaces">
+        <li>INICIO</li>
+        <li>ABOUT</li>
+        <li>SERVICIOS</li>
+        <li>CONTACTO</li>
+    </ul>
+    <ul class="idiomas">
+        <li>ES</li>
+        <li>EUS</li>
+    </ul>
+</div>
+
+</body>
+</html>

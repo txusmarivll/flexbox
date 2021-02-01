@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio2 - Menú Vertical</title>
+    <style>
+        /* *{border: 1px solid black} */
+
+        .container{
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+        }
+        li{
+            width: 33%;
+            padding: 1%;
+            display: block;
+            background-color: lightgray;
+            vertical-align: auto;
+            margin-bottom: 3px;
+        }
+        a{
+            background-color: white;
+            text-decoration: none;
+            color: black;
+            padding: 1%;
+            alignment-baseline: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul>
+        <li class="linea">INICIO <a href="#">Entrar</a></li>
+        <li>ABOUT<a href="#">Entrar</a></li>
+        <li>SERVICIOS<a href="#">Entrar</a></li>
+        <li>CONTACTO<a href="#">Entrar</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
